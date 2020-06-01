@@ -1,0 +1,11 @@
+lst=[]
+a=[]
+n=int(input("Enter no. of element:"))
+print("the elements are:")
+for i in range(0,n):
+    e=int(input("Enter the element:"))
+    lst.append(e)
+for x in lst:
+    if x not in a:
+        a.append(x)
+print(a)
